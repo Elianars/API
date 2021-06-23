@@ -1,0 +1,23 @@
+{
+  "name": "apirest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index"
+
+  },
+  "keywords": [
+    "eli",
+    "rest"
+  ],
+  "author": "Eliana",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
